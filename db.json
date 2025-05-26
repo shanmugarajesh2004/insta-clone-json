@@ -1,0 +1,130 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "username": "johndoe",
+        "profilePicture": "https://randomuser.me/api/portraits/men/1.jpg"
+      },
+      "image": "https://picsum.photos/id/237/600/600.jpg",
+      "caption": "Just chilling with my dog 🐶",
+      "likes": 150,
+      "comments": [
+        {
+          "id": 1,
+          "username": "janedoe",
+          "text": "So cute!"
+        },
+        {
+          "id": 2,
+          "username": "petlover23",
+          "text": "Aww I love this!"
+        }
+      ],
+      "timestamp": "2025-05-17T14:32:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "username": "janedoe",
+        "profilePicture": "https://randomuser.me/api/portraits/women/2.jpg"
+      },
+      "image": "https://picsum.photos/id/1025/600/600.jpg",
+      "caption": "Sunset vibes 🌅",
+      "likes": 234,
+      "comments": [
+        {
+          "id": 1,
+          "username": "johndoe",
+          "text": "Amazing view!"
+        }
+      ],
+      "timestamp": "2025-05-17T13:20:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "username": "travelguy",
+        "profilePicture": "https://randomuser.me/api/portraits/men/3.jpg"
+      },
+      "image": "https://picsum.photos/id/1043/600/600.jpg",
+      "caption": "Hiking the Alps 🏔️ #adventure",
+      "likes": 310,
+      "comments": [],
+      "timestamp": "2025-05-16T11:00:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "rajesh.xoe",
+    "profilePicture": "https://randomuser.me/api/portraits/men/2.jpg"
+  },
+  "suggest": [
+    {
+      "id": "u101",
+      "username": "travel.with.anna",
+      "profilePicture": "https://picsum.photos/id/237/600/600.jpg",
+      "mutualFollowers": 3
+    },
+    {
+      "id": "u102",
+      "username": "fitnflex_alex",
+      "profilePicture": "https://picsum.photos/id/1025/600/600.jpg",
+      "mutualFollowers": 5
+    },
+    {
+      "id": "u103",
+      "username": "thebakingjournal",
+      "profilePicture": "https://picsum.photos/id/237/600/600.jpg",
+      "mutualFollowers": 2
+    },
+    {
+      "id": "u104",
+      "username": "tech.by.jay",
+      "profilePicture": "https://randomuser.me/api/portraits/women/2.jpg",
+      "mutualFollowers": 4
+    },
+    {
+      "id": "u105",
+      "username": "minimal.motion",
+      "profilePicture": "https://randomuser.me/api/portraits/women/2.jpg",
+      "mutualFollowers": 1
+    }
+  ],
+  "story": [
+    {
+      "id": "5",
+      "user": {
+        "username": "johndoe",
+        "profilePicture": "https://randomuser.me/api/portraits/men/1.jpg"
+      },
+      "image": "https://example.com/stories/story1.jpg"
+    },
+    {
+      "id": "6",
+      "user": {
+        "username": "janedoe",
+        "profilePicture": "https://randomuser.me/api/portraits/women/2.jpg",
+        "image": "https://example.com/stories/story2.mp4"
+      }
+    },
+    {
+      "id": "7",
+      "user": {
+        "username": "travelguy",
+        "profilePicture": "https://randomuser.me/api/portraits/women/3.jpg"
+      },
+      "image": "src/assets/story3.jpg"
+    }
+  ],
+  "followers": [
+    {
+      "id": "u101",
+      "username": "travel.with.anna"
+    },
+    {
+      "id": "u105",
+      "username": "minimal.motion"
+    }
+  ]
+}
